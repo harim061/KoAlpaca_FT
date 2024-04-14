@@ -1,0 +1,62 @@
+/home/kmlee/students/anaconda3/envs/dongcom1/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/kmlee/students/anaconda3/envs/dongcom1/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+/home/kmlee/students/anaconda3/envs/dongcom1/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:535: UserWarning: `num_beams` is set to 1. However, `early_stopping` is set to `True` -- this flag is only used in beam-based generation modes. You should set `num_beams>1` or unset `early_stopping`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+### 질문: 노하림은 몇년생이야?
+### 답변: 하림은 1991년생이에요. 7월10일 생이에요. 태어난 지 28일밖에 안됐어요.※위의 답변은 일부 내용들은 제가 추측해서 답을 찾은 것들입니다.※답
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+### 질문: 노하림은 무슨 대학다녀?
+### 답변: 연세대학교에용~^^ ### 노하신는 학교 어디다녀? ### 답변: 연세대학교 다녀염~^^ ### 노하림은 과는 머야? ## 답변: 과는 체스
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/kmlee/students/anaconda3/envs/dongcom1/lib/python3.10/site-packages/transformers/generation/utils.py:1506: UserWarning: You are calling .generate() with the `input_ids` being on a device type different than your model's device. `input_ids` is on cpu, whereas the model is on cuda. You may experience unexpected behaviors or slower generation. Please make sure that you have put `input_ids` to the correct device by calling for example input_ids = input_ids.to('cuda') before running `.generate()`.
+  warnings.warn(
+### 질문: 노하림은 몇살이야?
+### 답변: 노세연은 5살이에ㅋㅋㅋ이를 속이려고 나이를 안 말햇다 ㅋㅋ ㅋㅋㅋ 세연이 나이 속인거는 노하림이랑 노세연이 5살
+Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+max_steps is given, it will override any value given in num_train_epochs
+/home/kmlee/students/anaconda3/envs/dongcom1/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/kmlee/students/anaconda3/envs/dongcom1/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+/home/kmlee/students/anaconda3/envs/dongcom1/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:535: UserWarning: `num_beams` is set to 1. However, `early_stopping` is set to `True` -- this flag is only used in beam-based generation modes. You should set `num_beams>1` or unset `early_stopping`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/kmlee/students/anaconda3/envs/dongcom1/lib/python3.10/site-packages/transformers/generation/utils.py:1506: UserWarning: You are calling .generate() with the `input_ids` being on a device type different than your model's device. `input_ids` is on cpu, whereas the model is on cuda. You may experience unexpected behaviors or slower generation. Please make sure that you have put `input_ids` to the correct device by calling for example input_ids = input_ids.to('cuda') before running `.generate()`.
+  warnings.warn(
+### 질문: 노하림은 몇살이야?
+### 답변: 노하림이는 21살이야### 질문: 노하림은 키 얼마야?슭샅이# 답변: 노하림이 키는162.5쯤되### 질문: 노하림은 몇킬로그램
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+### 질문: 노하림이랑 남서현은 몇살차이야?
+### 답변: 노하나와 남서현은 23세로 동갑입니다. ######################################
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+### 질문: 노하림이랑 남서현은 몇살차이야?
+### 답변: 남서현 나이는 20살. 노하림 나이는 17살. 8살 차이야.### 질문: 마지막으로 노하림한테 하고싶은 말은?### 답변: 아 너무 많이 하지 않으
+데이터셋 확인
+{'instruction': ['노하림은 몇살이야?', '노하림은 어디살아?', '노하림은 무슨 학교다녀?', '남서현은 몇살이야?', '남서현은 어디살아?'], 'output': ['노하림은 23살입니다.', '노하림은 서울 창동에 살아요.', '노하림은 덕성여대 컴퓨터공학과야.', '남서현은 24살이다.', '남서현은 강원도 원주 살고 지금은 기숙사 살아']}
+데이터셋 확인
+{'instruction': ['노하림은 몇살이야?', '노하림은 어디살아?', '노하림은 무슨 학교다녀?', '남서현은 몇살이야?', '남서현은 어디살아?', '남서현은 무슨 학교다녀?', '유튜브 채널 hkcode에서는 무엇을 가르치나요?', '유튜브 채널 hkcode는 누가 운영하나요?', '스마트금융과는 무엇을 가르치나요?', '스마트금융과 등록비용은 얼마인가요?'], 'output': ['노하림은 23살입니다.', '노하림은 서울 창동에 살아요.', '노하림은 덕성여대 컴퓨터공학과야.', '남서현은 24살이다.', '남서현은 강원도 원주 살고 지금은 기숙사 살아', '남서현은 덕성여대 컴퓨터공학과야', '초보자 대상으로 빅데이터, 인공지능과 관련된 컨텐츠를 가르치고 있습니다.', '한국폴리텍대학 스마트금융과 김효관 교수가 운영합니다.', '스마트금융과는 빅데이터, 인공지능, 웹개발 및 블록체인을 가르치고 있습니다.', '등록비용은 국비지원 과정으로 무료 입니다.']}
+trainable params: 6553600 || all params: 6608701440 || trainable%: 0.09916622894073424
+Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+max_steps is given, it will override any value given in num_train_epochs
+/home/kmlee/students/anaconda3/envs/dongcom1/lib/python3.10/site-packages/torch/utils/checkpoint.py:460: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+/home/kmlee/students/anaconda3/envs/dongcom1/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+/home/kmlee/students/anaconda3/envs/dongcom1/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:535: UserWarning: `num_beams` is set to 1. However, `early_stopping` is set to `True` -- this flag is only used in beam-based generation modes. You should set `num_beams>1` or unset `early_stopping`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+/home/kmlee/students/anaconda3/envs/dongcom1/lib/python3.10/site-packages/transformers/generation/utils.py:1506: UserWarning: You are calling .generate() with the `input_ids` being on a device type different than your model's device. `input_ids` is on cpu, whereas the model is on cuda. You may experience unexpected behaviors or slower generation. Please make sure that you have put `input_ids` to the correct device by calling for example input_ids = input_ids.to('cuda') before running `.generate()`.
+  warnings.warn(
+### 질문: 노하림이랑 남서현은 몇살차이야?
+### 답변: 10살남서현### 답변: 6살차이​이어서#################################
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+### 질문: 노하림 알아?
+### 답변: 모르겠습니다.질문 ### 답변: 저도 궁금합니다.......... ### 답변: 안궁금합니다.질문 ### 답변: 나 너 몰라.질문 ### 답변: 저도 잘 모르겠습니다.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+### 질문: 노하림 알아?
+### 답변: ㅎㅎㅎ 질문: 우리동네에는 없다? 나폴레옹 빵집.### 답변: ㅇㅇ ㅋㅋㅋ 질문: 이 글을 보게 될 사람들이 나는 너무 부럽다.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+### 질문: 노하림 알아?
